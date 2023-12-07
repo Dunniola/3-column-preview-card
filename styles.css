@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: white;
+    width: 100%;
+    min-height: auto;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 900px;
+    margin: 100px auto;
+   
+   
+}
+.container-one{
+    background-color:  hsl(31, 77%, 52%);
+    height: 450px;
+    padding: 40px;
+    border-radius: 3% 0 0 3%;
+    
+
+}
+.container-two{
+    background-color: hsl(184, 100%, 22%);
+    height: 450px;
+    padding: 40px;
+   
+}
+.container-three{
+    background-color: hsl(179, 100%, 13%);
+    height: 450px;
+    padding: 40px;
+    border-radius: 0 3% 3% 0;
+    
+}
+h1{
+    color:  white;
+    height: 50px;
+    margin-top:20px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 30px;
+}
+p{
+    letter-spacing: 0.5px;
+    height: 200px;
+    border-spacing: 5px;
+    line-height: 25px;
+    color:  hsla(0, 0%, 100%, 0.75);
+    word-spacing: 3px;
+    
+}
+button{
+    border-radius: 30px;
+    width: 50%;
+    height:30px;
+    border:none;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.orange{
+  color: hsl(31, 77%, 52%); 
+}
+.orange:hover{
+    cursor: pointer;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(31, 77%, 52%) ;
+    color:  hsl(0, 0%, 95%);
+}
+.green{
+    color:  hsl(184, 100%, 22%);
+}
+.green:hover{
+    cursor: pointer;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(184, 100%, 22%);
+    color:  hsl(0, 0%, 95%);
+}
+.dim-green{
+  color:  hsl(179, 100%, 13%);  
+}
+.dim-green:hover{
+    cursor: pointer;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    background-color:hsl(179, 100%, 13%);  
+    color:  hsl(0, 0%, 95%);
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    position: relative;
+    bottom: 130px;
+ }
+.attribution a {
+     color: hsl(179, 100%, 13%);
+     }
+
+@media(max-width:960px){
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        width:300px
+    }
+    .container-one, .container-two, .container-three{
+        height: 400px;
+        
+    }
+    .container-one{
+        border-radius: 3% 3% 0 0;
+    }
+    .container-three{
+        border-radius: 0 0 3% 3%;
+    }
+    p{
+        height: 160px;
+    }
+    button{
+        margin-top: 10px;
+    }
+    .attribution a {
+        color: hsl(184, 100%, 22%);
+        }
+    
+}
