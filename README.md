@@ -36,7 +36,7 @@ Mobile design
 ### Links
 
 - Solution URL: [View Demo](https://github.com/Dunniola/3-column-preview-card.git)
-- Live Site URL: [Add live site URL here](https://3-columns-preview-card-main.netlify.app/)
+- Live Site URL: [Netlify App](https://3-columns-preview-card-main.netlify.app/)
 
 ## My process
 
